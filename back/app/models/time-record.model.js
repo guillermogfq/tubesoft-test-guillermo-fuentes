@@ -1,4 +1,5 @@
 module.exports = (sequelize, Sequelize) => {
+  //Definition table timerecord for save registers from frontend
   const TimeRecord = sequelize.define("timerecord", {
     id: {
       type: Sequelize.INTEGER,
